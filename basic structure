@@ -1,0 +1,21 @@
+var x = 125
+var y = 125;
+var m = 110;
+var size = 50;
+
+function setup() { 
+  createCanvas(1000, 1000);
+} 
+
+function draw() { 
+  background(220);
+  noStroke();
+  for(var i=0; i<990; i++){
+    for(var z = 0; z<1000; z++){
+    size = 100
+      
+    fill(50);
+    ellipse(x + m*i, y + m*z, size, size);
+    }
+  }
+}
